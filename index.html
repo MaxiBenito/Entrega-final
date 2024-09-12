@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <header id="header"></header>
+    </header>
+
+    <main>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/foto-gratis/fila-coches-nuevos-puerto_335224-806.jpg?t=st=1726088614~exp=1726092214~hmac=8c67e6543a89727e9f42fbca3a51863fdd254182885760f79d2b2af0f08ed8d9&w=1380" alt="Imagen 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/fotos-premium/vista-aerea-estacionamientos-vacios_505557-8207.jpg?w=1480" alt="Imagen 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/foto-gratis/fila-bicicletas-fondo-borroso-ciudad_23-2148242268.jpg?t=st=1726089145~exp=1726092745~hmac=7eb064f58bf46c226704158ebd7bfc58244db5e27b16242cf35c4bd8719bbc4d&w=1380" alt="Imagen 3">
+          </div>
+        </div>
+        <!-- Botones de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Paginación -->
+        <div class="swiper-pagination"></div>
+      </div>
+      
+      <div id="cards-container" class="cards-container"></div>
+    </main>
+
+    <footer>
+  
+    </footer>
+    <!-- Acá van los Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/index.js"></script>
+    <!-- Acá van los Scripts -->
+     <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+     </script>
+</body>
+
+</html>
