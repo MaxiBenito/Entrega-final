@@ -11,6 +11,7 @@ const save = JSON.parse(localStorage.getItem('cars'));
                 <p class="auto-precio">Precio: $${auto.precio}</p>
                 <p class="auto-year">Año: ${auto.year}</p>
                 <p class="auto-year">Km: ${auto.km}</p>
+                
                 <a href="https://wa.me/3543571393?text=${(`Hola, estoy interesado en el ${auto.nombre} con un precio de $${auto.precio}`)}" target="_blank" id="btn" class="whatsapp-button">Me interesa</a>          
               </div>
 

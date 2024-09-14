@@ -20,7 +20,7 @@ body {
 .navbar nav ul li {
     display: flex;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .navbar nav ul li a {
@@ -29,7 +29,7 @@ body {
     font-size: 1.1rem;
     color:rgb(255, 255, 255);
     margin-left: 1rem;
-    padding: 14px;
+    padding: 25px;
     text-decoration: none;
 }
 
@@ -79,6 +79,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    
 }
 
 .card button:hover {
@@ -195,6 +196,8 @@ header {
     margin-bottom: 40px;
 }
 
-
-
-
+.mapa{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+}

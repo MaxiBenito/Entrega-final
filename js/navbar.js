@@ -10,32 +10,12 @@ const enlaces = [
         nombre: "Inicio"
     },
     {
-        link: "productos",
-        nombre: "0km"
-    },
-    {
         link: "usados",
         nombre: "Usados"
     },
-    {   
-        link:"mantenimiento",
-        nombre: "Mantenimiento"
-    },
-    {
-        link: "seguro",
-        nombre: "Seguro"
-    },
-    //{
-        //link: "vende",
-        //nombre: "Vende tu auto"
-    //},
     {
         link: "contacto",
         nombre: "Contacto"
-    },
-    {
-        link: "novedades",
-        nombre: "Novedades"
     }
 ]
 
